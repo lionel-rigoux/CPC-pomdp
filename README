@@ -1,6 +1,6 @@
-*** Computational Psychiatry Course - Zurich 2015 ***
+# Computational Psychiatry Course - Zurich 2015 #
 
-// Preparation
+## Preparation ##
 
 Compile the pomdp-solve toolbox. The toolbox (./pomdp-solve-5.4) is from http://pomdp.org/ and is given here for convenience only.
 
@@ -8,12 +8,12 @@ Compile the pomdp-solve toolbox. The toolbox (./pomdp-solve-5.4) is from http://
 - You should get in the end a pomdp-solve file. It contains the main code for solving the POMDPS.
 - Copy the pomdp-solve file in the main folder. 
 
-// Definition of the problem
+## Definition of the problem ##
 
 The tiger.POMDP file describes the model (transition matrices, reward functions, observations, etc.). 
 You can modify this file to test the influence of the model parameters on the optimal behaviour.
 
-// Solving the problem
+## Solving the problem ##
 
 1. In matlab, call the function
 
