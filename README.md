@@ -15,7 +15,7 @@ You can modify this file to test the influence of the model parameters on the op
 
 ## Solving the problem ##
 
-1. In matlab, call the function
+* In matlab, call the function
 
 ```results = solvePOMDP('tiger') ```
 
@@ -24,7 +24,7 @@ If you prefer to go step by step, you can directly call the podmp-solve code by 
 
 ``` ./pomdp-solve -pomdp tiger.POMDP -o 'tiger-solution' ```
 
-2. The toolbox produces two files containg the solution of the pomdp:
+* The toolbox produces two files containg the solution of the pomdp:
 
 - 'tiger-solution.alpha' is the list of the alpha-vectors defining the optimal value function, as following
 - 'tiger-solution.pg'    is the optimal policy of the corresponding belief MDP. Each line indicates:
