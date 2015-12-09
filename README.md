@@ -26,10 +26,10 @@ If you prefer to go step by step, you can directly call the podmp-solve code by 
 
 * The toolbox produces two files containg the solution of the pomdp:
 
-- 'tiger-solution.alpha' is the list of the alpha-vectors defining the optimal value function, as following
-- 'tiger-solution.pg'    is the optimal policy of the corresponding belief MDP. Each line indicates:
-      - the belief state number
-      - the best action for this state
-      - the next belief state to be reached for depending on the observation (so as many columns as possible observations)
+            - 'tiger-solution.alpha' is the list of the alpha-vectors defining the optimal value function, as following
+            - 'tiger-solution.pg'    is the optimal policy of the corresponding belief MDP. Each line indicates:
+                  - the belief state number
+                  - the best action for this state
+                  - the next belief state to be reached for depending on the observation (so as many columns as possible observations)
 
 * In case you cannot run the pomd-solve code, the solution of the problem is already included in the folder.
