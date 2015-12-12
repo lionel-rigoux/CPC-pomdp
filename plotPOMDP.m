@@ -21,6 +21,8 @@ set(plot1(end),'LineWidth',3,'Color',[0.850980401039124 0.325490206480026 0.0980
 
 % Create xlabel
 xlabel('belief states');
+set(gca,'XTick',[0,1],'XTickLabel',results.pomdp.states);
+set(gca,'YLim',[-120,25],'YTick',-100:20:20);
 
 % Create title
 title('alpha values');
@@ -41,6 +43,8 @@ set(plot2(3),'DisplayName','open right',...
 
 % Create xlabel
 xlabel({'belief states',''});
+set(gca,'XTick',[0,1],'XTickLabel',results.pomdp.states);
+set(gca,'YLim',[-120,25],'YTick',-100:20:20);
 
 % Create title
 title('action values');
@@ -70,6 +74,7 @@ end
 
 % Create xlabel
 xlabel('belief states');
+set(gca,'XTick',[0,1],'XTickLabel',results.pomdp.states);
 
 % Create title
 title('policy value');
